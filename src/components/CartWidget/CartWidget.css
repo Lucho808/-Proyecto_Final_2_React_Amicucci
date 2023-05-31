@@ -1,0 +1,19 @@
+.CartWidget {
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .CartImg {
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .CartWidget:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .CartWidget:hover {
+    text-decoration: underline;
+  }

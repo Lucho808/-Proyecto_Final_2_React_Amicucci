@@ -1,0 +1,40 @@
+.cart-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-item h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cart-item p {
+  margin: 5px 0;
+}
+
+.cart-item input {
+  margin-top: 10px;
+  padding: 5px;
+  width: 60px;
+}
+
+.finish-button {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.finish-button:hover {
+  background-color: #0056b3;
+}

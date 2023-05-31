@@ -1,0 +1,15 @@
+.ListGroup {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: auto;
+    margin: 30px;
+    padding: 30px;
+    font-size: 20px;
+
+  }
+  
+  @media (max-width: 768px) {
+    .ListGroup {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }

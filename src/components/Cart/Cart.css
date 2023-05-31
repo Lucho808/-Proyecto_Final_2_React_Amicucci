@@ -1,0 +1,57 @@
+.Cart {
+    margin-top: 20px;
+  }
+  
+  .Cart h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .Option {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .Option:hover {
+    text-decoration: underline;
+  }
+  
+  .CartItem {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .CartItem h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .CartItem p {
+    margin: 5px 0;
+  }
+  
+  .Total {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .Button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .Button:hover {
+    background-color: #0056b3;
+  }
+  

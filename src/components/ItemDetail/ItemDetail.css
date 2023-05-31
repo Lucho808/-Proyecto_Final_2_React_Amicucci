@@ -1,0 +1,85 @@
+.CardItem {
+    max-height: none;
+    max-width: 40%;
+    width: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .Header {
+
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .ItemHeader {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .ItemImg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .Info {
+    margin-bottom: 5px;
+  }
+  
+  .ItemFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ItemCountContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .QuantityText {
+    margin-right: 10px;
+  }
+  
+  .QuantityButtons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .QuantityButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .QuantityButton:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .Quantity {
+    margin: 0 10px;
+  }
+  
+  .AddToCartButton {
+    padding: 8px 16px;
+    background-color: #007bff;
+    border: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .AddToCartButton:hover {
+    background-color: #0056b3;
+  }
+  
